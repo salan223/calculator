@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Fira+Sans:ital@1&family=Inter&family=Libre+Barcode+128+Text&display=swap');
+*{
+  font-family: 'Inter', sans-serif;
+
+}
+
+
+body{
+  background: linear-gradient(to left, #0e0b0b, #0a0a0c)
+}
+
+.Calculator {
+  border: 2px solid #ffffff;
+  width: 340px;
+  border-radius: 20px;
+  background: transparent;
+  padding: 10px;
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+input{
+  width: 315px;
+  padding: 15px;
+  margin: 12px;
+  font-size: 35px;
+  text-align: right;
+  border: none;
+  color: black;
+  border-radius: 10px;
+  box-sizing:border-box;
+
+}
+input::placeholder{
+  color: white;
+}
+button{
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50px;
+  background-color: #505050;
+  color: white;
+  font-size: 20px;
+}
+.zero{
+  width: 147px;
+}
+.operator{
+  background-color: #FF9500;
+  color: white;
+}
+.row1{
+  background-color: #D4D4D2;
+  color: black;
+}
+.result-container {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
